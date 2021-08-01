@@ -1,0 +1,21 @@
+{
+  "name": "codingtrain_api_2.01_selfiedatabase",
+  "version": "1.0.0",
+  "description": "the data selfie app by Joey Lee",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "JS",
+    "server",
+    "selfie"
+  ],
+  "author": "J S Walley",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}

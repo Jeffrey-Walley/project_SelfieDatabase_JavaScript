@@ -1,0 +1,36 @@
+<!--Using the Wave (Web Accessibility Evaluation Tool) is important before you put any project up to the web <or a similar tool>-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--bring in the P5.js library to allow drawing and sound design within the html-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Selfie Database App</title>
+</head>
+
+<body>
+
+    <h1>Selfie Database App using API and Node Server</h1>
+
+    <div><a href="/">home</a> | <a href="/logs">Image History</a></div>
+
+    <p>
+        latitude: <span id="latitude"></span>&deg;<br/> longitude: <span id="longitude"></span>&deg;
+    </p>
+    <label for="mood">What is Your Mood? </label>
+    <input id="mood" value="Mood" />
+    <button id="submit">submit</button>
+
+    <!--Module 02 ep09 setup express server-->
+    <script type="text/javascript" src="sketch.js"></script>
+</body>
+
+</html>
